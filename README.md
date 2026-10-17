@@ -24,3 +24,7 @@ This is a proposal for discussion, not a claim that named venues have agreed to 
 ## How to contribute
 
 Open a discussion with your city, the SME workflow problem you see, what evidence would make a local resource trustworthy, and a small pilot idea. Please do not include personal or confidential information.
+
+## Developer handoff
+
+See [DEVELOPER_BRIEF.md](DEVELOPER_BRIEF.md) for the staged deliverables, acceptance criteria, planning-source link, safety boundaries, and questions that must be answered before implementation. The linked Vilnius concept is unverified planning input, not approved public copy.
