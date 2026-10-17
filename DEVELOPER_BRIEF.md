@@ -1,6 +1,6 @@
 # Developer Brief: Local Hubs Demand Pipeline
 
-**Status:** Discovery and prototype planning only. This document is a developer handoff, not authorization to launch a service, contact prospective customers, spend money, publish unverified claims, or access production systems.
+**Status:** Discovery and prototype planning only. This document is not authorization to launch a service, contact prospective customers, spend money, publish content, or access production systems. The local-hub landing-page sections and copy are not ready for publication. Discuss and explicitly approve them with the project owner only after the developer is confirmed and the contract is signed. Until then, the concept is reference material only; do not present its copy, claims, offers, venue details, or calls to action as approved.
 
 ## Source material
 
@@ -8,7 +8,7 @@
 - [Project #2: Local Hubs Demand Pipeline & AEO Directory](https://github.com/orgs/saulius-systems-labs/projects/2)
 - [Repository overview](README.md)
 
-The source concept proposes a localized directory with Learn / Build / Improve routes, a local representative profile, a coworking venue, case studies, a sponsorship offer, FAQs, and structured data. Treat these as concepts to assess, not confirmed requirements or facts. In particular, do not publish venue relationships or addresses, endorsements, representative credentials, deployment metrics, prices, offers, availability, privacy/compliance guarantees, or partner names until a named maintainer records authoritative evidence and approval.
+The source concept proposes a localized directory with Learn / Build / Improve routes, a local representative profile, a coworking venue, case studies, a sponsorship offer, FAQs, and structured data. These are concepts for discussion after the developer is confirmed and the contract is signed, not approved requirements, facts, or publishable content. In particular, do not draft for publication or publish page sections, venue relationships or addresses, endorsements, representative credentials, deployment metrics, prices, offers, availability, privacy/compliance guarantees, or partner names before the project owner has explicitly approved the content and its evidence.
 
 ## Delivery sequence and acceptance
 
@@ -25,11 +25,12 @@ The source concept proposes a localized directory with Learn / Build / Improve r
 ### W2 — Useful local directory pilot (after W1)
 
 **Deliverables**
-- Confirmed CMS platform, content model/field map, and one original pilot page for the approved city.
-- Evidence-backed copy and source register; Learn / Build / Improve paths with approved destinations or clearly marked placeholders.
+- Confirmed CMS platform and content model/field map, if authorized for technical discovery.
+- After the developer is confirmed, the contract is signed, and the project owner has explicitly approved the sections and copy: one original pilot page for the approved city. Before that gate, use placeholders only and do not treat prototypes as approved content.
+- After the content approval gate: evidence-backed copy and source register; Learn / Build / Improve paths with approved destinations or clearly marked placeholders. Before approval, no publishable page copy; unresolved content must remain visibly placeholder-only.
 - Responsive and accessibility review, structured-data validation where applicable, and a short content-quality/duplication review.
 
-**Accept when** the maintainer can trace each factual claim to a current approved source; links and structured data match the verified content; accessibility and mobile checks have recorded results; no invented or implied partner relationship is shown.
+**Accept when** the developer-confirmation and signed-contract gate is met, the project owner has approved the page sections and copy, each factual claim has a current approved source, links and structured data match verified content, and accessibility/mobile checks have recorded results. Until then, only explicitly authorized technical discovery using placeholders may proceed; no public content or launch is approved.
 
 ### W3 — Consent-aware intake prototype (after W1; synthetic data only)
 
@@ -51,7 +52,7 @@ The source concept proposes a localized directory with Learn / Build / Improve r
 
 ## Developer working rules
 
-- Start with W1; do not start public-page or intake implementation while its blocking decisions remain open.
+- Start with W1; do not start public-page copy or publishing while blocking decisions remain open. Landing-page sections and copy require a separate explicit discussion and approval after the developer is confirmed and the contract is signed. Any authorized earlier technical discovery must use placeholders only.
 - Keep changes small and reviewable. Work through issues and pull requests; link implementation to its issue and request a named maintainer review before merge.
 - Record assumptions, source links, verification dates, test evidence, and remaining decisions in the relevant issue. Use Project #2's **Evidence status** field: **Not assessed** → **Source verified** → **Approved for publication**. Source verification alone is not publication approval.
 - Use placeholders for unresolved facts and integrations. Do not invent URLs, contact details, schedules, partner status, sample results, CMS credentials, or production configuration.
@@ -59,7 +60,7 @@ The source concept proposes a localized directory with Learn / Build / Improve r
 
 ## Decisions required before implementation
 
-The project owner/maintainer must answer these in the W1 issue or explicitly mark them out of scope:
+The project owner/maintainer must answer these in the W1 issue or explicitly mark them out of scope. Landing-page section and copy decisions are deferred until the developer is confirmed and the contract is signed, then require explicit owner approval before publication:
 
 1. Which city is the first pilot, who is the target user, and what user problem has priority?
 2. Is the first deliverable a research artifact, a static page, or a working CMS-backed page? Which repository/site and CMS are in scope?
